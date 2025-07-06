@@ -1,55 +1,15 @@
-# Workshop-Building-a-Serverless-System-with-AWS-Guide
+# Workshop: AI Nhận Diện Ảnh Thông Minh với Amazon Rekognition và Serverless Stack
 
 ## Giới thiệu
 
-Đây là tài liệu hướng dẫn xây dựng hệ thống serverless với AWS, sử dụng Hugo để quản lý nội dung.
+Chào mừng bạn đến với Workshop "AI Nhận Diện Ảnh Thông Minh với Amazon Rekognition và Serverless Stack"!  
+Trong workshop này, bạn sẽ được hướng dẫn xây dựng một hệ thống nhận diện hình ảnh tự động sử dụng dịch vụ Amazon Rekognition kết hợp với kiến trúc serverless hiện đại trên AWS.
 
-## 1. Clone Project
+## Nội dung chính
 
-Trước tiên, hãy clone repository về máy của bạn:
+- Tổng quan về AI nhận diện hình ảnh và ứng dụng thực tế
+- Làm quen với Amazon Rekognition: Phân tích, nhận diện khuôn mặt, vật thể, văn bản trong ảnh
+- Xây dựng hệ thống serverless với AWS Lambda, API Gateway, S3, DynamoDB
+- Triển khai quy trình upload ảnh, xử lý tự động và lưu trữ kết quả nhận diện
+- Hướng dẫn triển khai, vận hành và mở rộng hệ thống
 
-```bash
-git clone https://github.com/<your-username>/Workshop-AWS-Rekognition-and-Serverless-Stack-Guide.git
-cd Workshop-AWS-Rekognition-and-Serverless-Stack-Guide
-git submodule update --init --recursive
-```
-
-> **Lưu ý:** Dự án sử dụng theme Hugo Learn dưới dạng submodule, nên cần chạy lệnh `git submodule update --init --recursive` sau khi clone.
-
-## 2. Cài đặt Hugo
-
-Bạn cần cài đặt [Hugo](https://gohugo.io/getting-started/installing/) (khuyến nghị bản mở rộng - extended version).
-
-- **Windows:** Có thể cài qua Chocolatey:  
-  `choco install hugo-extended -y`
-- **macOS:**  
-  `brew install hugo`
-- **Linux:**  
-  Làm theo hướng dẫn tại [Hugo Docs](https://gohugo.io/getting-started/installing/)
-
-Kiểm tra cài đặt:
-```bash
-hugo version
-```
-
-## 3. Khởi chạy website Hugo
-
-Chạy lệnh sau để khởi động server phát triển:
-
-```bash
-hugo server
-```
-
-Sau đó, truy cập vào địa chỉ: [http://localhost:1313](http://localhost:1313)
-
-Mỗi khi bạn chỉnh sửa nội dung, website sẽ tự động reload.
-
-## 4. Build website để deploy
-
-Khi muốn build website ra thư mục tĩnh và khi cần build lại project (public):
-
-```bash
-hugo
-```
-
-Toàn bộ nội dung sẽ nằm trong thư mục `public/` và có thể deploy lên bất kỳ web server nào (Netlify, Vercel, S3, v.v).
