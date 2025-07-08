@@ -26,7 +26,7 @@ Next, please download and install a popular code editor such as Visual Studio Co
 
 ![Vs code Install](/images/2.Prerequiste/vscode_6.png)
 
-- Next, go to the [project's github link](https://github.com/Tuanhung0912/Workshop-AWS-Rekognition-and-Serverless-Stack-Guide.git)
+- Next, go to the [project's github link](https://github.com/Tuanhung0912/Workshop-AWS-Rekognition-and-Serverless-Stack-Frontend.git)
 - Click the green **Code** button and copy the Repository link as shown below:
 
 ![Github Page](/images/2.Prerequiste/github_frontend.png)

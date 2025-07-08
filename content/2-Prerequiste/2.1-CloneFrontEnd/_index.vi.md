@@ -27,7 +27,7 @@ Sau đó, bạn hãy tải và cài đặt môi trường Code Editor phổ bi�
 
 ![Vs code Install](/images/2.Prerequiste/vscode_6.png)
 
-- Tiếp theo, truy cập [đường link github của project](https://github.com/Tuanhung0912/Workshop-AWS-Rekognition-and-Serverless-Stack-Guide.git)
+- Tiếp theo, truy cập [đường link github của project](https://github.com/Tuanhung0912/Workshop-AWS-Rekognition-and-Serverless-Stack-Frontend.git)
 - Bấm vào biểu tượng **Code** màu xanh lá và Copy đường link của Repository như trong hình bên dưới:
 
 ![Github Page](/images/2.Prerequiste/github_frontend.png)
