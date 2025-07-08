@@ -1,5 +1,7 @@
 # Workshop: AI Nhận Diện Ảnh Thông Minh với Amazon Rekognition và Serverless Stack
 
+## Truy cập Link sau để xem Workshop chi tiết: https://tuanhung0912.github.io/
+
 ## Giới thiệu
 
 Chào mừng bạn đến với Workshop "AI Nhận Diện Ảnh Thông Minh với Amazon Rekognition và Serverless Stack"!  
@@ -13,3 +15,4 @@ Trong workshop này, bạn sẽ được hướng dẫn xây dựng một hệ t
 - Triển khai quy trình upload ảnh, xử lý tự động và lưu trữ kết quả nhận diện
 - Hướng dẫn triển khai, vận hành và mở rộng hệ thống
 
+## Truy cập Link sau để xem Workshop chi tiết:
